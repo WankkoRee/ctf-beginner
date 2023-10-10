@@ -4,6 +4,6 @@
 
 ### HTTP 基础
 
-#### Header 传参
+#### Cookie 传参
 
-hello world :)
+hello world ^=^
