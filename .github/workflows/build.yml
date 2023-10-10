@@ -28,10 +28,10 @@ jobs:
       - name: 构建 Docker 镜像
         id: build
         run: |
-          find . -type f -name 'docker-compose.yml' |
+          find ~+ -type f -name 'docker-compose.yml' |
           while read -r docker_compose_path
           do
-            cd $(dirname $(realpath  $docker_compose_path ) )
+            cd $(dirname $docker_compose_path )
             docker compose build
           done
 
