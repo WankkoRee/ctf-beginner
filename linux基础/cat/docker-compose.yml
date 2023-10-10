@@ -1,5 +1,5 @@
 version: "3.8"
-name: ctf-web-liunx-cat
+name: ctf-liunx-cat
 
 services:
   app:

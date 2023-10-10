@@ -1,5 +1,5 @@
 version: "3.8"
-name: ctf-web-liunx-grep
+name: ctf-liunx-grep
 
 services:
   app:

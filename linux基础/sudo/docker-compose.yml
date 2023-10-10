@@ -1,5 +1,5 @@
 version: "3.8"
-name: ctf-web-liunx-sudo
+name: ctf-liunx-sudo
 
 services:
   app:
