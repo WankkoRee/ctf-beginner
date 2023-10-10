@@ -31,7 +31,7 @@ jobs:
           find . -type f -name 'docker-compose.yml' |
           while read -r docker_compose_path
           do
-            cd $(dirname "docker_compose_path")
+            cd $(dirname $(realpath  $docker_compose_path ) )
             docker compose build
           done
 
