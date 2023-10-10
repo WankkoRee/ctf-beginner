@@ -25,6 +25,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: 拉取缓存
+        id: cache
+        uses: jpribyl/action-docker-layer-caching@v0.1.1
+        continue-on-error: true
+
       - name: 构建 Docker 镜像
         id: build
         run: |
