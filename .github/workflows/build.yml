@@ -47,7 +47,7 @@ jobs:
           docker images "wankkoree\/*" --format "{{.Repository}}:{{.Tag}}" | sed 's#wankkoree\/##' |
           while read -r docker_image
           do
-            LOCAL_IMAGE=wankkoree/{docker_image}
+            LOCAL_IMAGE=wankkoree/${docker_image}
             REMOTE_IMAGE_GHCR=ghcr.io/${{ github.repository_owner }}/${docker_image}
             docker tag ${LOCAL_IMAGE} ${REMOTE_IMAGE_GHCR}
             docker push ${REMOTE_IMAGE_GHCR}
