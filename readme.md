@@ -10,4 +10,5 @@
 
 ## 目录
 
-- [web](web)
+- [Linux 基础](linux基础)
+- [Web](web)
