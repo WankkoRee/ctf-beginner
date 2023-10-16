@@ -1,0 +1,3 @@
+<?php
+require("flag.php");
+// 在这里执行一些东西吧
