@@ -9,8 +9,8 @@ EXPOSE 80
 
 COPY default.conf /etc/nginx/http.d/default.conf
 
-COPY src/ /var/www/html/
+COPY src /var/www/html/
 
-COPY ./docker-entrypoint.sh /
+COPY docker-entrypoint.sh /
 
 CMD ["/docker-entrypoint.sh"]

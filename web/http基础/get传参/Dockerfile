@@ -1,7 +1,7 @@
 FROM php:8.2.11-fpm-alpine3.18
 LABEL org.opencontainers.image.authors="Wankko Ree"
 
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
 
 RUN apk add --no-cache nginx
 
