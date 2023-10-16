@@ -9,8 +9,9 @@
     </style>
 </head>
 <body>
-<h1>这是一个无用的标题</h1>
-<p>看看html里面有什么吧。</p>
+<h1>你看到的我~</h1>
+<sub>是哪一种颜色~</sub>
+<sup>悲伤或快乐~</sup>
 <div>
     <p>这是一个无用的 div 内的段落。</p>
     <ul>
@@ -52,8 +53,6 @@
 <pre>这是一个无用的预格式化文本</pre>
 <small>这是小号文本</small>
 <strong>这是强调文本</strong>
-<sub>这是下标文本</sub>
-<sup>这是上标文本</sup>
 <time datetime="2023-10-16">2023年10月16日</time>
 <var>这是一个无用的变量</var>
 </body>
