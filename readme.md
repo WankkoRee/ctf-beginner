@@ -11,4 +11,5 @@
 ## 目录
 
 - [Linux 基础](linux基础)
+- [SQL 基础](sql基础)
 - [Web](web)
