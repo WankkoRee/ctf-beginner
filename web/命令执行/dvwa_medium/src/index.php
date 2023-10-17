@@ -4,7 +4,8 @@ highlight_file(__FILE__);
 if( isset( $_REQUEST[ 'ip' ] ) ) {
     $target = $_REQUEST[ 'ip' ];
     $substitutions = array(
-        '&&' => '',
+        '&'  => '',
+        '|'  => '',
         ';'  => '',
     );
     $target = str_replace( array_keys( $substitutions ), $substitutions, $target );
