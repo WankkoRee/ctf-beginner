@@ -15,6 +15,6 @@ if( isset( $_REQUEST[ 'ip' ] ) ) {
         '||' => '',
     );
     $target = str_replace( array_keys( $substitutions ), $substitutions, $target );
-    $cmd = shell_exec( "ping  -c 1 $target" );
+    $cmd = shell_exec( "ping -c 1 $target" );
     echo "<pre>{$cmd}</pre>";
 }
