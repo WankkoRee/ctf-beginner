@@ -3,7 +3,7 @@
 $code = isset($_POST['code']) ? trim($_POST['code']) : '';
 echo "
 <form method='post'>
-<input type='text' name='code' placeholder='执行一段sql' value='$code'>
+<textarea name='code' placeholder='执行一段sql'>$code</textarea>
 <input type='submit' value='提交'>
 </form>
 ";
