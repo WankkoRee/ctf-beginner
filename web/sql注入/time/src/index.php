@@ -10,14 +10,14 @@ if ($id !== '') {
     if ($conn->connect_error) {
         die("连接失败: " . $conn->connect_error);
     }
-    $sql="SELECT * FROM users WHERE id=(('$id')) LIMIT 0,1";
+    $sql="SELECT * FROM users WHERE id='$id' LIMIT 0,1";
     $result = $conn->query($sql);
     if ($result) {
         $row = $result->fetch_array();
         if ($row) {
             echo '来啦老弟';
         } else {
-            echo '没有数据';
+            echo '来啦老弟';
         }
     } else {
         //echo '出错了: ' . $conn->error;

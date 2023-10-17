@@ -1,12 +1,12 @@
 version: "3.8"
-name: ctf-web-sqli-bool1
+name: ctf-web-sqli-error
 
 services:
   app:
     build:
       context: .
       dockerfile: Dockerfile
-    image: wankkoree/ctf.web.sqli.bool1:1.0.0
+    image: wankkoree/ctf.web.sqli.error:1.0.0
     ports:
       - "10000:80"
     environment:
