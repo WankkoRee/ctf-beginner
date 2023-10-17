@@ -8,3 +8,4 @@
 
 1. [echo](echo)
 2. [var_dump](var_dump)
+3. [循环](for)

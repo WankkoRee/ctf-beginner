@@ -1,0 +1,5 @@
+<?php
+require("flag.php");
+for (/*FORM*/) {
+    echo $flag[$i];
+}
