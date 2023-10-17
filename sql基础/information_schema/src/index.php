@@ -12,7 +12,7 @@ if ($code !== '') {
     if ($conn->connect_error) {
         die("连接失败: " . $conn->connect_error);
     }
-    $result = $conn->query($_POST['code']);
+    $result = $conn->query($code);
     if ($result->num_rows > 0) {
         echo '<table border="1">';
         echo '<tr>';
