@@ -1,0 +1,19 @@
+version: "3.8"
+name: ctf-web-sqli-union2
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: wankkoree/ctf.web.sqli.union2:1.0.0
+    ports:
+      - "10000:80"
+    environment:
+      - FLAG=flag{12345678-abcd-1234-5678-abcdef123456}
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: 1
